@@ -1,0 +1,34 @@
+<odoo>
+
+    <record id="view_cartin_refund_form"
+            model="ir.ui.view">
+
+        <field name="name">
+            cartin.refund.form
+        </field>
+
+        <field name="model">
+            cartin.refund
+        </field>
+
+        <field name="arch" type="xml">
+
+            <form>
+                <sheet>
+
+                    <group>
+
+                        <field name="name"/>
+                        <field name="amount"/>
+                        <field name="state"/>
+                        
+                    </group>
+
+                </sheet>
+            </form>
+
+        </field>
+
+    </record>
+
+</odoo>
